@@ -1,4 +1,4 @@
-package com.myname.mymodid;
+package com.OL925.OwOTestMod;
 
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;

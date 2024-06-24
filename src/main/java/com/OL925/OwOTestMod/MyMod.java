@@ -1,4 +1,4 @@
-package com.myname.mymodid;
+package com.OL925.OwOTestMod;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -10,13 +10,30 @@ import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import cpw.mods.fml.common.event.FMLServerStartingEvent;
 
-@Mod(modid = MyMod.MODID, version = Tags.VERSION, name = "MyMod", acceptedMinecraftVersions = "[1.7.10]")
+@Mod(modid = MyMod.MODID, version = Tags.VERSION, name = "OwO Test Mod", acceptedMinecraftVersions = "[1.7.10]")
 public class MyMod {
+    public static void main(String[]args){
+        
+    }
 
-    public static final String MODID = "mymodid";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    public static final String MODID = "OwOTestMod";
     public static final Logger LOG = LogManager.getLogger(MODID);
 
-    @SidedProxy(clientSide = "com.myname.mymodid.ClientProxy", serverSide = "com.myname.mymodid.CommonProxy")
+    @SidedProxy(clientSide = "com.OL925.OwOTestMod.ClientProxy", serverSide = "com.OL925.OwOTestMod.CommonProxy")
     public static CommonProxy proxy;
 
     @Mod.EventHandler

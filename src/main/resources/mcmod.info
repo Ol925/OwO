@@ -3,12 +3,12 @@
 	"modList": [{
 		"modid": "${modId}",
 		"name": "${modName}",
-		"description": "An example mod for Minecraft 1.7.10 with Forge focused on a stable setup.",
+		"description": "A private test mod, created by OL925.",
 		"version": "${modVersion}",
 		"mcversion": "${minecraftVersion}",
-		"url": "https://github.com/SinTh0r4s/MyMod",
+		"url": "https://github.com/Ol925/OwO",
 		"updateUrl": "",
-		"authorList": ["SinTho0r4s"],
+		"authorList": ["OL925"],
 		"credits": "",
 		"logoFile": "",
 		"screenshots": [],
@@ -16,6 +16,6 @@
 		"requiredMods": [],
 		"dependencies": [],
 		"dependants": [],
-		"useDependencyInformation": false
+		"useDependencyInformation": true
 	}]
 }
