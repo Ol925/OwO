@@ -1,6 +1,6 @@
 package com.OL925.OwOTesTMod;
 
-import com.myname.mymodid.Tags;
+import com.OL925.OwOTesTMod.Tags;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -16,6 +16,7 @@ public class OwOTesTMod {
 
     public static final String MODID = "OwOTesTMod";
     public static final Logger LOG = LogManager.getLogger(MODID);
+
 
     @SidedProxy(clientSide = "com.OL925.OwOTesTMod.ClientProxy", serverSide = "com.OL925.OwOTesTMod.CommonProxy")
     public static CommonProxy proxy;
