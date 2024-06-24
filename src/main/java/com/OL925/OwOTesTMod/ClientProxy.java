@@ -1,4 +1,4 @@
-package com.myname.mymodid;
+package com.OL925.OwOTesTMod;
 
 public class ClientProxy extends CommonProxy {
 
