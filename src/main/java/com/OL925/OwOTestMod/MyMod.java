@@ -1,5 +1,7 @@
 package com.OL925.OwOTestMod;
 
+import cpw.mods.fml.common.eventhandler.SubscribeEvent;
+import net.minecraft.item.Item;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -13,21 +15,8 @@ import cpw.mods.fml.common.event.FMLServerStartingEvent;
 @Mod(modid = MyMod.MODID, version = Tags.VERSION, name = "OwO Test Mod", acceptedMinecraftVersions = "[1.7.10]")
 public class MyMod {
     public static void main(String[]args){
-        
+
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
     public static final String MODID = "OwOTestMod";
@@ -60,4 +49,9 @@ public class MyMod {
     public void serverStarting(FMLServerStartingEvent event) {
         proxy.serverStarting(event);
     }
+}
+
+class A1 extends Item{
+
+
 }
