@@ -1,7 +1,5 @@
-package com.OL925.OTM;
+package com.myname.mymodid;
 
-import com.OL925.OTM.OwOTestMod;
-import com.OL925.OTM.Tags;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
@@ -12,10 +10,10 @@ public class CommonProxy {
     // preInit "Run before anything else. Read your config, create blocks, items, etc, and register them with the
     // GameRegistry." (Remove if not needed)
     public void preInit(FMLPreInitializationEvent event) {
-        com.OL925.OTM.Config.synchronizeConfiguration(event.getSuggestedConfigurationFile());
+        Config.synchronizeConfiguration(event.getSuggestedConfigurationFile());
 
-        OwOTestMod.LOG.info(com.OL925.OTM.Config.greeting);
-        OwOTestMod.LOG.info("I am MyMod at version " + Tags.VERSION);
+        MyMod.LOG.info(Config.greeting);
+        MyMod.LOG.info("I am MyMod at version " + Tags.VERSION);
     }
 
     // load "Do your mod setup. Build whatever data structures you care about. Register recipes." (Remove if not needed)

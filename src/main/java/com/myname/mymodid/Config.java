@@ -1,4 +1,4 @@
-package com.OL925.OTM;
+package com.myname.mymodid;
 
 import java.io.File;
 
